@@ -126,7 +126,7 @@ extension UIView {
         }
     }
     
-    open var isLoading: Bool {
+    var isLoading: Bool {
         if let _ = get(kDimmerActivityIndicatorView), dimmingRatio > 0 {
             return true
         } else {
